@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function gtNn(a,b,c) {
+        let kq= 0;
+        if (a<b  && a<c){
+          kq= a;
+        }
+        else if (b>c){
+           kq= c;
+        }
+        else {
+        kq =b;
+        }
+        return kq;
+    }
+
+    let a=parseInt(prompt("nhap a"));
+    let b= parseInt(prompt("nhap b"));
+    let c= parseInt(prompt("nhap c"));
+    kq= gtNn(a,b,c);
+    document.write("gia tri nho nhat la: " + kq);
+</script>
+</body>
+</html>
